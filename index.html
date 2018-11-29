@@ -32,6 +32,7 @@
                 <li><a href="#publications" style="font-family:Arial Black">Publications</a></li>
                 <li><a href="#awards" style="font-family:Arial Black">Awards</a></li>
                 <li><a href="#research" style="font-family:Arial Black">Research</a></li>
+                <li><a href="#course" style="font-family:Arial Black">Course</a></li>
                 </ul>
     </div>
 </div>
@@ -54,7 +55,7 @@
 		<p><b>Short Bio</b></p>
 	</div>
 	<p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
-		I am Shuhao Chang, a senior student majored in Electronic Information Science and Technology at Tsinghua University. I will graduate in June 2019. My research interests primarily include <b>data analysis and privacy-preserving, machine learning and deep learning methods</b>. My overall research objective is to combine machine learning and deep learning methods with practical data analysis problems.
+		I am Shuhao Chang, a senior student majoring in Electronic Information Science and Technology at Tsinghua University. I will graduate in June 2019. My research interests primarily include <b>machine learning, deep learning, data science and computer vision</b>. My overall research objective is to combine machine learning and deep learning methods with practical problems.
 	</p>
 </div>
 
@@ -64,10 +65,15 @@
 	</div>
 
 	<p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
-		Shuhao Chang, Xi Chen, Menglu Wang. 
+		<b>Shuhao Chang</b>, Xi Chen, Menglu Wang.
 		<a href="./paper1.pdf" style="color:#FFFFFF"><i> An Efficient Algorithm for Refining Position and Velocity Outputs of Space-borne GNSS Receivers. </i></a>
 		<a href="http://chinacom.eai-conferences.org/" style="color:#FFFFFF">(CHINACOM, 2017)</a>
 	</p>
+    <p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
+        Fengli Xu, Zhen Tu, Hongjia Huang, <b>Shuhao Chang</b>, Yong Li.
+        <i> An Efficient Algorithm for Refining Position and Velocity Outputs of Space-borne GNSS Receivers. </i>
+        <a href="https://www2019.thewebconf.org" style="color:#FFFFFF">(The Web Conference, 2019)</a> (submitted)
+    </p>
 </div>
 
 <div id="awards" style="background-color:#9ACD32;height:100%;width:100%;float:left">
@@ -76,6 +82,9 @@
 	</div>
 
 	<p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
+        2018&nbsp;&nbsp;&nbsp;&nbsp;Comprehensive excellent scholarship of Tsinghua University<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Social contribution scholarship of Tsinghua University<br>
 		2017&nbsp;&nbsp;&nbsp;&nbsp;Scholarship for academic excellence of Tsinghua University<br>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         Outstanding student backbone honor of Tsinghua University<br><br>
@@ -99,9 +108,9 @@
 	</div>
 	
     <p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
-    <b style="color:#000000;font-family:Arial">Privacy-preserving data publishing (PPDP) solutions beyond k-anonymity (07/2017-now)<br></b>
+    <b style="color:#000000;font-family:Arial">Privacy-preserving data publishing (PPDP) solutions beyond k-anonymity (09/2017-now)<br></b>
     <br>
-    Publishing data without divulging privacy is a hotspot issue nowadays. I enter the FIB Lab of THU this year and focus on proposing new solutions to enhance the availability of data subject to the condition that privacy of users in dataset with check-in records is preserved well enough. I and my partner have built up an attacker model and used data-driven methods to analyze a dataset with more than 2 million users. And we find that people with check-in records are not so unique as people think before. Our idea mainly based on k-anonymity and l-diversity framework, but meanwhile, we aim to improve the availability of dataset. We have finished most of the work up to now and we begin to work on the paper. In the following month, I and my partner will finish this work and try to submit the paper for publication. <br>
+    Publishing data without divulging privacy is a hotspot issue nowadays. I entered the Future Communications and Internet Lab  of THU at Tsinghua and worked on privacy-preserving data publishing (PPDP), under the supervision of Prof. Yong Li. Since most privacy-preserving algorithms were based on data generalization, which largely reduced the utility of data, we decided to design an algorithm to satisfy privacy requirements and achieve high data utility at the same time. In order to adopt a data-driven method, I took an exploratory data analysis on spatial-temporal trajectory and check-in records of more than 200,000 users. Specifically, the record uniqueness was measured from several different angels to take into consideration various spatial or temporal resolutions and different anonymity-set sizes. The results showed that the uniqueness of check-in records was much lower than normal trajectory records. This finding inspired us that reducing the accuracy of a small check-in dataset could prevent linkage attacks on the large trajectory dataset and meanwhile keep the high utility of original data. We then proposed a novel partition-and-group framework based on k-anonymity and l-diversity. The following simulation using true data of Tencent and Weibo proved that our algorithm achieved large improvements on the average utility loss. Our paper related to this work has been submitted to WWW2019 conference. <br>
     </p>
 	
 	<div style="width=100%;clear:both;background-color:#EEEEEE;height:20px">
@@ -109,24 +118,43 @@
     <p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
     <b style="color:#000000;font-family:Arial">Space-borne navigational positioning based on receding horizon filtering (09/2016-08/2017)<br></b>
     <a href="./OralPresentation.pdf" style="color:#EEEEEE">click here to know more</a><br><br>
-    Position and velocity outputs of space-borne GNSS receivers may not be accurate enough to be used at new situations. In this work, I propose a new algorithm to refine the output of receivers and verify the effect with simulations acted on real in-orbit satellite data. In October this year, I published a paper as the first author and made a 20 minutes' presentation on Chinacom2017, which is raised by European Alliance for Innovation(EAI). During the presentation, I successfully answered several questions about our work and won praise from the chairperson.<br>
+    Position and velocity outputs of space-borne GNSS receivers may not be accurate enough to be used at new situations. In this work, I proposed an algorithm based on the weighted Runge-Kutta method and proved in simulations run with real in-orbit satellite data that this algorithm can effectively eliminate outliers and significantly reduce the root mean square error (RMSE) of position and velocity values. In October this year, I published a paper as the first author and made a 20 minutes' oral presentation on ChinaCom2017, which is raised by European Alliance for Innovation(EAI). During the presentation, I successfully answered several questions about our work and won praise from the chairperson.<br>
     </p>
 	
-	<div style="width=100%;clear:both;background-color:#EEEEEE;height:20px">
-	</div>	
-	<p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
-		<b style="color:#000000;font-family:Arial">Cross-modal matching of audio and visual information (10/2017-12/2017)<br></b>
-		<a href="https://github.com/excelexcavator/VA_Project" style="color:#EEEEEE">click here to know more</a><br><br>
-		Multimedia including music, images as well as videos are widely used in everyday life, by which huge amount of information is loaded. Although research in this field has been conducted over years, it is still difficult for people to find out what on earth the relationship between image and audio is and to recover either with the other. I, as well as my two partners, have worked on a curriculum project for two months to automatically match audio segments with silent videos with deep learning methods. During the project, we take advantage of the idea of ResNet structure and BCE loss function. Up till now, we have reached a high matched rate of 90 percent and finished a curriculum paper presenting our work.<br>
-	</p>
-	
-	<div style="width=100%;clear:both;background-color:#EEEEEE;height:20px">
-	</div>	
-	<p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
-		<b style="color:#000000;font-family:Arial">Gaussian noise passing convolutional neural networks (1/2018-2/2018)<br></b>
+    <div style="width=100%;clear:both;background-color:#EEEEEE;height:20px">
+    </div>
+    <p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
+    <b style="color:#000000;font-family:Arial">Robust traffic sign detection with Lidar images in YOLO framework (07/2018-present)<br></b>
+    <br>
+    This summer I attended the Visiting International Student Program at the University of Wisconsin-Madison. I worked as a student research intern in Prof. Kassem Fawaz’s lab in the ECE department. The core idea of the project  was to use the environment depth and reflection information collected by Lidar on autonomous cars to defend adversarial attacks in traffic sign detection. By training two novel deep neural networks using darkflow – the framework on which YOLO was built, I successfully achieved accurate detection of different shapes of traffic signs in depth and reflection value map respectively. This work is still continuing. <br>
+    </p>
+
+    <div id="course" style="background-color:#9ACD32;height:100%;width:100%;float:left">
+        <div style="width=100%;clear:both;background-color:#EEEEEE;height:50px;text-align:left;line-height:50px;font-family:Arial Black">
+            <p><b>Course Projects</b></p>
+        </div>
+        
+        <p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
+        <b style="color:#000000;font-family:Arial">Gaussian noise passing convolutional neural networks (1/2018-2/2018)<br></b>
 		<a href="./paper2.pdf" style="color:#EEEEEE">click here to know more</a><br><br>
 		Recently, studies on deep neural networks have developed by leaps and bounds, especially convolutional neural networks. When applying deep learning methods to many areas, researchers are often annoyed by the quality of input signal. Adversarial examples can largely affect the performance of CNN models. In this work, the most common and typical interface --- additive Gaussian noise is supposed to pass through CNNs and the performance of it is studied in detail, both theoretically and practically. I take simulations and experiments on CIFAR-10 data-set. The experiments show that ReLU and LeakyReLU layers have better training performance than tanh layer when input signal is inffluenced by Gaussian noise. Besides, max-pooling layer is more stable than average-pooling layer under Gaussian noise.<br>
-	</p>
+        </p>
+        
+        <div style="width=100%;clear:both;background-color:#EEEEEE;height:20px">
+        </div>
+        <p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
+        <b style="color:#000000;font-family:Arial">New York Taxi Fare Prediction (9/2018-11/2018)<br></b>
+        <a href="./EDA_Project.pdf" style="color:#EEEEEE">click here to know more</a><br><br>
+        More and more people prefer to choose taxi-hailing services including DiDi and Uber than to buy their own cars due to convenience. Our project is to build a predictive model such that our taxi fare prediction is as closeto the real world cost as possible. By implementing several machine learning models such as Neu-ral Network with Keras, Regression, Random Forest and eXtreme Gradient Boosting with sklearn, we aim to produce a baseline model that predicts the fare amount given the pickup and dropofflocations. My main task is to make an exploratory data analysis(EDA) on the dataset and try to use Random Forest, DenseNet and Inception models to get accurate prediction. Finally, we reduced the prediction error to $2.78 with random forest method.<br>
+        </p>
+        
+        <div style="width=100%;clear:both;background-color:#EEEEEE;height:20px">
+        </div>
+        <p style="color:#FFFFFF;padding-top:10px;padding-left:20px">
+        <b style="color:#000000;font-family:Arial">Cross-modal matching of audio and visual information (10/2017-12/2017)<br></b>
+        <a href="https://github.com/excelexcavator/VA_Project" style="color:#EEEEEE">click here to know more</a><br><br>
+        Multimedia including music, images as well as videos are widely used in everyday life, by which huge amount of information is loaded. Although research in this field has been conducted over years, it is still difficult for people to find out what on earth the relationship between image and audio is and to recover either with the other. I, as well as my two partners, have worked on a curriculum project for two months to automatically match audio segments with silent videos with deep learning methods. During the project, we take advantage of the idea of ResNet structure and BCE loss function. Up till now, we have reached a high matched rate of 90 percent and finished a curriculum paper presenting our work.<br>
+        </p>
 </div>
 
 </div>
@@ -134,7 +162,7 @@
 </div>	
 
 <div id="footer" style="background-color:#2E8B57;height:20px;clear:both">
-    <p style="color:#FFFFFF;text-align:center">Last revised: 9/30/2018</p>
+    <p style="color:#FFFFFF;text-align:center">Last revised: 11/29/2018</p>
 </div>
 </div>
 </body>
